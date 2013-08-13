@@ -1,19 +1,28 @@
 body {
 	margin: 0;
 	padding: 0;
-  font: 18px/1.4 $fontstack-tisa;
+  font: 18px/1.4 $fontstack-serif;
+}
+
+h1, h2, h3 {
+  font-family: $fontstack-sans;
 }
 
 p {
-  text-indent: 2em;
-  .noindent & {
-    text-indent: 0;
-  }
+
 }
 
 hr {
   border: 0;
-  border-top: 0.6em solid $color-main;
+  border-top: 0.3em solid $color-brown;
   width: 20%;
   margin: 1em auto;
+}
+
+a:link, a:visited {
+  color: $color-brown;
+}
+
+a:hover, a:focus {
+  color: $color-orange;
 }

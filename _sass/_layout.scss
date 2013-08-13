@@ -1,5 +1,5 @@
 .l-header {
-  background-color: $color-main;
+  background-color: $color-brown;
   color: #fff;
   padding: 0.2em 0;
 }
@@ -15,13 +15,15 @@
 .l-title a:link, .l-title a:visited {
   color: #fff;
   text-transform: uppercase;
-  font-family: $fontstack-brandon;
+  font-family: $fontstack-sans;
   font-weight: 900;
   text-decoration: none;
   font-size: 1.5em;
 }
 
 .l-footer {
-  text-align: right;
   padding: 2em 0;
+  .menu {
+    float: right;
+  }
 }

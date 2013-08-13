@@ -5,37 +5,43 @@
   min-height: 8em;
   background-color: #eee;
   padding: 1.5em 0;
+  text-align: center;
 }
 
 .hero-title {
   font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 300;  
-  color: $color-main;
+  font-weight: 500;  
+  color: $color-brown;
   text-align: center;
   margin: 0;
   font-size: 3em;
   line-height: 1.2;
   text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5);
+  font-style: italic;
 }
 
 .date-headline {
   font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900; 
+  font-weight: 700; 
+  font-size: 0.7em;
   display: block;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 0.4em;
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .date {
-  display: block;
+  display: inline-block;
   text-align: center;
-  width: 222px;
-  height: 58px;
-  background-image: image-url("01jul@2x.png");
-  background-size: cover;
-  @extend %ir;
-  margin: 0 auto;
+  background-color: $color-orange;
+  border-radius: 2px;
+  font-family: $fontstack-sans;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 0.3em 1.5em;
+  @include filter-gradient(#fbb817, #c66d05, vertical); // IE6-9
+  @include background-image(linear-gradient(top,  #fbb817 0%,#c66d05 100%));
 }
 
 .bdm {
