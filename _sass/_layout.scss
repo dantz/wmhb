@@ -1,0 +1,27 @@
+.l-header {
+  background-color: $color-main;
+  color: #fff;
+  padding: 0.2em 0;
+}
+
+.l-vise {
+  max-width: 35em;
+  margin: 0 auto;
+  @include respond-max(36em) {
+    padding: 1em;
+  }
+}
+
+.l-title a:link, .l-title a:visited {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: $fontstack-brandon;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.l-footer {
+  text-align: right;
+  padding: 2em 0;
+}

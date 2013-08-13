@@ -1,0 +1,35 @@
+/* Mixins */
+
+@mixin respond-min($width) {
+  @media only screen and (min-width:$width) {
+    @content;
+  }
+}
+
+@mixin respond-max($width) {
+  @media only screen and (max-width:$width) {
+    @content;
+  }
+}
+
+/* The Extendables */
+
+%cf:before,
+%cf:after {
+    content: " ";
+    display: table;
+}
+
+%cf:after {
+    clear: both;
+}
+
+%cf {
+    *zoom: 1;
+}
+
+%ir {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}

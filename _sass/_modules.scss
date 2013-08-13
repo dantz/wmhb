@@ -1,0 +1,49 @@
+.hero-container {
+  background-image: image-url("foto.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 8em;
+  background-color: #eee;
+  padding: 1.5em 0;
+}
+
+.hero-title {
+  font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;  
+  color: $color-main;
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  line-height: 1.2;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+.date-headline {
+  font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900; 
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
+}
+
+.date {
+  display: block;
+  text-align: center;
+  width: 222px;
+  height: 58px;
+  background-image: image-url("01jul@2x.png");
+  background-size: cover;
+  @extend %ir;
+  margin: 0 auto;
+}
+
+.bdm {
+  width: 150px;
+  margin: 1em 0;
+}
+
+.efre, .wfb {
+  width: 130px;
+  margin: 1em 0;
+}

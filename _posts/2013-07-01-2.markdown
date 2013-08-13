@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Webmontag II/2013"
+date:   2013-07-01 20:37:26
+categories: usability js ecommerce
+---
+
+Open-Type-Funktionen mit CSS3 – Stefan Nitzsche
+Drupal – Steffen Rühlmann
+
+Anschließend Getränke und gut gelauntes Beisammensein.

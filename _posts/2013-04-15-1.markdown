@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Webmontag I/2013"
+date:   2013-04-15 20:37:26
+categories: usability js ecommerce
+---
+
+Marcel Böttcher - Rapid Usability Testing
+Malte Legenhausen - AngularJS
+Sohrab Mohammad - reishunger.de
+
+Anschließend Getränke und gut gelauntes Beisammensein.
