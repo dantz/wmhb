@@ -1,5 +1,6 @@
 name: Webmontag Bremen
 markdown: redcarpet
 pygments: true
+timezone: Europe/Berlin
 
 permalink: /:year/:title
