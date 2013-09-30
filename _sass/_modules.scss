@@ -1,50 +1,72 @@
 .hero-container {
-  background-image: image-url("foto.jpg");
-  background-size: cover;
-  background-position: bottom center;
-  min-height: 8em;
-  background-color: #eee;
-  padding: 1.5em 0;
   text-align: center;
-}
-
-.hero-title {
-  font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 500;  
-  color: $color-brown;
-  text-align: center;
-  margin: 0;
-  font-size: 3em;
-  line-height: 1.2;
-  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5);
-  font-style: italic;
-  @include respond-max(30em) {
-    font-size: 2em;
+  position: relative;
+  img {
+    border-radius: 0.3em 0.3em 0 0;
+    max-width: 100%;
   }
 }
 
-.date-headline {
-  font-family: "brandon-grotesque", "Helvetica Neue", Arial, sans-serif;
-  font-weight: 700; 
-  font-size: 0.7em;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 1em;
-  margin-bottom: 1rem;
+.date {
+  &:link, &:visited {
+    display: inline-block;
+    text-align: center;
+    background-color: $color-orange;
+    border-radius: 0.4em;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 0.3em 2em;
+    border: 0.3em solid #fff;
+    top: -1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  span {
+    display: block;
+    font-size: 0.5em;
+  }
 }
 
-.date {
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-date {
+  -webkit-font-feature-settings: "tnum";
+  -moz-font-feature-settings: "tnum";    
+  font-feature-settings: "tnum";
+}
+
+.spacer {
   display: inline-block;
-  text-align: center;
-  background-color: $color-orange;
-  border-radius: 2px;
-  font-family: $fontstack-sans;
-  color: #fff;
-  font-size: 1.5em;
-  padding: 0.3em 1.5em;
-  @include filter-gradient(#fbb817, #c66d05, vertical); // IE6-9
-  @include background-image(linear-gradient(top,  #fbb817 0%,#c66d05 100%));
+  margin: 0 1.5em;
+}
+
+.slice-calendar {
+  background: image-url('calendar.png');
+  background-position: right bottom;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  padding: 5em 4em 5em 4em;
+  @include respond-max(40em) {
+    padding: 2em;
+  }  
+}
+
+.slice-speckflagge {
+  @include respond-min(40em) {
+    background-image: image-url('speckflagge.png');
+    background-repeat: no-repeat;
+    background-size: 42%;
+    background-position: 2.1em 2.8em;
+    padding-left: 55%;
+  }  
+}
+
+.slice-map {
+  min-height: 8em;
 }
 
 .bdm {

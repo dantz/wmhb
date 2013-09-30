@@ -1,11 +1,31 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-  font: 18px/1.4 $fontstack-serif;
+  font: 18px/1.4 $fontstack-sans;
+  @include respond-max(30em) {
+    font-size: 16px;
+  }
 }
 
 h1, h2, h3 {
-  font-family: $fontstack-sans;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h1 {
+
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 p {

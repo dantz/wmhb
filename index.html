@@ -1,33 +1,44 @@
 ---
 layout: default
 title: Webmontag Bremen – Feierabendrunde für das Bremer Internet
+body-class: home
 ---
 
-<div id="home">
-	<div class="hero-container">
-    <div class="l-vise">
-      <h1 class="hero-title">Feierabendrunde für das Bremer Internet</h1>
-      <hr>
-      <span class="date-headline">Nächster Termin</span>
-      <span class="date">{{ site.posts.first.date | date: "%d.%m." }}</span>
-    </div>
-  </div>
-  <div class="l-vise">
-	  <h2>Die Veranstaltungen</h2>
-  	<ul class="events">
-    	{% for post in site.posts %}
-      	<li><span>{{ post.date | date: "%d.%m.%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    	{% endfor %}
-  	</ul>
-  </div>
-  <div class="l-vise">
-  	<h2>Buten un Binnen</h2>
-  	<p>Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die <a href="http://de.wikipedia.org/wiki/Flagge_Bremens">Speckflagge</a> im <a href="http://de.wikipedia.org/wiki/Pixel-Art">Pixel-Art-Stil</a> ein.</p>
-
-    <p>Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.</p>
-
-    <p>Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.</p>
-
-    <p>Im Anschluss an die Vorträge stehen uns die Räumlichkeiten zum angeregten Austausch noch bis ca. 21.00 Uhr zur Verfügung. <strong>Der Eintritt ist frei.</strong></p>
-  </div>
+<div class="hero-container">
+<img src="img/header.jpg" alt="Foto vom Publikum beim Webmontag">
+  <a href="{{ site.posts.first.url }}" class="date"><span>Nächster Termin</span> {{ site.posts.first.date | date: "%d. %B" }}</a>
 </div>
+<div class="l-slice slice-calendar">
+  <h2>Die Veranstaltungen</h2>
+	<ul class="event-list">
+  	{% for post in site.posts %}
+    	<li><span class="event-date">{{ post.date | date: "%d.%m.%Y" }}</span> <span class="spacer">&raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+  	{% endfor %}
+	</ul>
+</div>
+<div class="l-slice l-slice-highlight slice-speckflagge">
+	<h2>Buten un Binnen</h2>
+	<p>Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die <a href="http://de.wikipedia.org/wiki/Flagge_Bremens">Speckflagge</a> im <a href="http://de.wikipedia.org/wiki/Pixel-Art">Pixel-Art-Stil</a> ein.</p>
+
+  <p>Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.</p>
+
+  <p>Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.</p>
+
+  <p>Im Anschluss an die Vorträge stehen uns die Räumlichkeiten zum angeregten Austausch noch bis ca. 21.00 Uhr zur Verfügung. <strong>Der Eintritt ist frei.</strong></p>
+</div>
+<div class="l-slice slice-map" id="map">
+
+</div>
+
+<div class="l-footer l-slice">
+  <div class="fb-like" data-href="https://facebook.com/webmontagbremen" data-width="100" data-colorscheme="light" data-show-faces="true" data-send="false"></div>
+
+  <div class="supporter">
+    <span class="title">Ermöglicht durch</span>
+    <img class="bdm" src="/img/logo-bdm.jpg" alt="bremen digitalmedia Logo">
+  </div>
+
+</div>
+
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAgqxb3eN-s6b4v3P_20Mhh-zbvfp1g52I&sensor=true"></script>
+<script src="/js/map.js"></script>

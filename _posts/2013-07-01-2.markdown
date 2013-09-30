@@ -3,9 +3,13 @@ layout: post
 title:  "Webmontag II/2013"
 date:   2013-07-01 20:37:26
 categories: usability js ecommerce
+fb-link: https://www.facebook.com/events/460251644051508/
+gplus-link: https://plus.google.com/b/108353097962757057557/events/c4nplgjjolf4f54b2uurudbv82c
+lanyrd-link: http://lanyrd.com/2013/webmontag-hb/
+sponsors: bremen digitalmedia
 ---
 
-Open-Type-Funktionen mit CSS3 – Stefan Nitzsche
-Drupal – Steffen Rühlmann
+Open-Type-Funktionen mit CSS3 – Stefan Nitzsche  
+Drupal – Steffen Rühlmann  
 
 Anschließend Getränke und gut gelauntes Beisammensein.

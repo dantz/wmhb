@@ -16,19 +16,20 @@
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     </head>
-    <body>
+    <body class="{{ page.body-class }}">
 
-      <header class="l-header">
-        <div class="l-title l-vise"><a href="/">{{ site.name }}</a></div>
-      </header>
+      <div id="home" class="l-wrapper">
 
-      {{ content }}
+        <header class="l-header">
+          <a href="/" class="l-logo">Webmontag <span>Bremen</span></a>
+        </header>
 
-      <footer class="l-footer l-vise">
-        <div class="fb-like" data-href="https://facebook.com/webmontagbremen" data-width="280" data-colorscheme="light" data-show-faces="true" data-send="false"></div>
+        {{ content }}
 
-        <a href="/impressum" class="menu">Impressum</a>
-      </footer>
+      </div>
+      <div class="l-credits">
+        <a href="http://vortrieb.net">Handgefertigt von Vortrieb in Bremen</a> – <a href="/impressum" class="menu">Impressum</a>
+      </div>
       
       <script type="text/javascript">
 

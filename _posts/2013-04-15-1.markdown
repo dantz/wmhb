@@ -3,10 +3,14 @@ layout: post
 title:  "Webmontag I/2013"
 date:   2013-04-15 20:37:26
 categories: usability js ecommerce
+fb-link: https://www.facebook.com/events/460251644051508/
+gplus-link: https://plus.google.com/b/108353097962757057557/events/co1rrfjo069ut3t4akcmoudcag8
+lanyrd-link: http://lanyrd.com/2013/webmontag-bremen/
+sponsors: bremen digitalmedia
 ---
 
-Marcel Böttcher - Rapid Usability Testing
-Malte Legenhausen - AngularJS
-Sohrab Mohammad - reishunger.de
+Marcel Böttcher - Rapid Usability Testing  
+Malte Legenhausen - AngularJS  
+Sohrab Mohammad - reishunger.de  
 
 Anschließend Getränke und gut gelauntes Beisammensein.
