@@ -1,7 +1,7 @@
-wmhb
-====
+Webmontag Bremen
+================
 
-Webmontag Bremen Website
+Website des Webmontag Bremen
 
 
 Fehler, Fotos und Fixes gern selbst machen und per Pull-Request einreichen, danke.
