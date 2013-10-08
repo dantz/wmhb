@@ -6,6 +6,7 @@ categories: usability js ecommerce
 fb-link: https://www.facebook.com/events/460251644051508/
 gplus-link: https://plus.google.com/b/108353097962757057557/events/c4nplgjjolf4f54b2uurudbv82c
 lanyrd-link: http://lanyrd.com/2013/webmontag-hb/
+address: Alte Schnapsfabrik, Am Deich 86, 28199 Bremen
 sponsors: bremen digitalmedia
 ---
 
