@@ -18,16 +18,12 @@ body {
 }
 
 .l-header {
-  margin-left: 4em;
-  padding-top: 4em;
-  .home & {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 2em;
-    top: 2em;
-    z-index: 10;
-  }
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 2em;
+  top: 2em;
+  z-index: 10;
 }
 
 .l-header a:link, .l-header a:visited {
@@ -35,9 +31,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   font-size: 1.8em;
-  .home & {
-    color: #fff;
-  }
+  color: #fff;
   span {
     font-weight: 400;
   }
