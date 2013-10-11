@@ -1,5 +1,6 @@
 ---
 layout: default
+body-class: event
 ---
 <div class="hero-container">
 	<img src="/img/post-header.jpg" alt="Foto vom Publikum beim Webmontag">
@@ -10,18 +11,30 @@ layout: default
 	</div>
 </div>
 
-<div class="l-slice">
+<div class="l-slice l-vise">
 	<h2>{{ page.title }}</h2>
-	<p>Datum: <time datetime="{{ page.date | %Y-%m-%d %H:%M+01:00 }}">
-         {{ page.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time></p>
 
-  <p>Ort: {{ page.address }}</p>
-
-  <p>Sponsoren: {{ page.sponsors }}</p>
-
-	<div class="post">
-	{{ content }}
-	</div>
+	<table>
+		<tr>
+			<th>Datum</th>
+			<td>
+				<time datetime="{{ page.date | %Y-%m-%d %H:%M+01:00 }}">
+         {{ page.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"October","Oktober" | replace:"December","Dezember" }}</time>
+       </td>
+    </tr>
+    <tr>
+			<th>Ort</th>
+			<td>{{ page.address }}</td>
+    </tr>
+    <tr>
+			<th>Sponsoren</th>
+			<td>{{ page.sponsors }}</td>
+    </tr>
+    <tr>
+			<th>Vorträge</th>
+			<td>{{ content }}</td>
+    </tr>    
+	</table>
 
 </div>
 

@@ -4,6 +4,9 @@
   img {
     border-radius: 0.3em 0.3em 0 0;
     max-width: 100%;
+    @include respond-max(40em) {
+      min-height: 5em;
+    }
   }
 }
 
@@ -80,9 +83,11 @@
 }
 
 .social-container {
-  margin-top: -1.9em;
   text-align: right;
   padding-right: 2em;
+  @include respond-min(40em) {
+    margin-top: -1.9em;
+  }
   .social {
     margin-left: 1em;
   }

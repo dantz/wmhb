@@ -10,8 +10,6 @@ address: Alte Schnapsfabrik, Am Deich 86, 28199 Bremen
 sponsors: bremen digitalmedia
 ---
 
-## Vorträge
-
 * [Stefan Nitzsche](http://nitzsche.info) über Open-Type-Funktionen mit CSS3  
 * Steffen Rühlmann von [undpaul](http://www.undpaul.de/) über Drupal  
 

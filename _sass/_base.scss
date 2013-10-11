@@ -32,6 +32,16 @@ p {
 
 }
 
+td, th {
+  vertical-align: top;
+  padding: 0.5em;
+}
+
+th {
+  text-align: right;
+  font-style: italic;
+}
+
 hr {
   border: 0;
   border-top: 0.3em solid $color-brown;

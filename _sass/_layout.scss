@@ -58,6 +58,13 @@ body {
   }
 }
 
+.l-vise {
+  @include respond-min(40em) {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
 .l-footer {
   overflow: hidden;
   .supporter {
