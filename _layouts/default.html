@@ -5,6 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ site.url}}{% if page.url != "/index.html" %}{{ page.url }}{% endif %}">
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:image" content="{% if post.thumb" %}{{ site.url }}{{ post.thumb }}{% else %}{{ site.url }}{{ site.thumb }}{% endif %}">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">

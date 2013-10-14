@@ -3,4 +3,7 @@ markdown: redcarpet
 pygments: true
 timezone: Europe/Berlin
 
+url: http://webmontag-bremen.de
+thumb: /img/thumb.png
+
 permalink: /:year/:title
