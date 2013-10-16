@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webmontag III/2013"
-date:   2013-10-21 20:37:26
+date:   2013-10-21 16:30:00
 categories: usability js ecommerce
 fb-link: https://www.facebook.com/events/245243858933749/
 gplus-link: https://plus.google.com/b/108353097962757057557/events/cl0ta9vd7hj7kqbbla9tbsfnvh4
