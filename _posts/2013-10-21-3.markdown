@@ -10,7 +10,7 @@ address: Alte Schnapsfabrik, Am Deich 86, 28199 Bremen
 sponsors: bremen digitalmedia
 ---
 
-* Kevin Heil und Florenz Heldermann von [hmmh](http://hmmh.de) über Atomic Design und modul-basiertes Prototyping
+* Kevin Heil und Florenz Heldermann von [hmmh](http://hmmh.de) über Pattern Lab und Atomic Design
 * Steve Liedtke von der [neusta GmbH](http://www.team-neusta.de/) über die Google App Engine
 * Jan Theysen von [KING Art Games](http://kingart-games.de/) über die erste erfolgreiche Kickstarter-Kampagne aus Bremen
 
