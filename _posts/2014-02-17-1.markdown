@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Webmontag I/2014"
-date:   2014-02-17 16:30:00
+date:   2014-02-17 18:30:00
 categories: usability js ecommerce
 fb-link: https://www.facebook.com/events/395145363952938/
 gplus-link: https://plus.google.com/b/108353097962757057557/events/cptulj7o62jmf8c8va8op87k4uk
