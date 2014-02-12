@@ -10,6 +10,7 @@ address: Alte Schnapsfabrik, Am Deich 86, 28199 Bremen
 sponsors: bremen digitalmedia
 ---
 
-Vorträge werden in Kürze angekündigt.
+* Florian Schaper, hmmh – Predictive Apps
+* Florian Scholz, Mozilla – Die Mozilla Community und das Manifest
 
-Anschließend Getränke und gut gelauntes Beisammensein.
+Die Vorträge beginnen um 19 Uhr. Anschließend Getränke und gut gelauntes Beisammensein.
