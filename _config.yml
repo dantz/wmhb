@@ -1,7 +1,7 @@
 name: Webmontag Bremen
 markdown: redcarpet
 pygments: true
-timezone: Europe/Berlin
+timezone: "Europe/Berlin"
 
 url: http://webmontag-bremen.de
 thumb: /img/thumb.png
