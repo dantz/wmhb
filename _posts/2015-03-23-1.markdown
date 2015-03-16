@@ -11,7 +11,7 @@ sponsors: bremen digitalmedia
 
 Um 18:30 Uhr machen wir den Laden auf und um 19:00 Uhr beginnt der erste Vortrag.
 
-Rainer Pleyer – Prototyping with Keynote
+Rainer Pleyer – Prototyping with Keynote  
 Wiebke Kukielka – Evented I/O mit node.js
 
 Danach gemeinsames verarbeiten des Gehörten bei dem einen oder anderen Getränk.
