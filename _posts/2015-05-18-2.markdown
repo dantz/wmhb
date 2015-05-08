@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Webmontag II/2015"
+date:   2015-03-23 18:30:00
+categories: performance
+fb-link: https://www.facebook.com/events/348014412059786/
+gplus-link: https://plus.google.com/b/108353097962757057557/events/c6ckhknunlt8oepmel6i9ldnlp0
+address: Karton, Am Deich 86, 28199 Bremen
+sponsors: bremen digitalmedia
+---
+
+Um 18:30 Uhr machen wir den Laden auf und um 19:00 Uhr beginnt der erste Vortrag.
+
+Marcel Böttcher – Wie man das weltbeste Websitekonzept entwickelt
+Rico Sassen - Was ist Clean Code?
+Georg Sopart – Schieb es nicht auf den Stuhl
+
+Danach gemeinsames verarbeiten des Gehörten bei dem einen oder anderen Getränk.
