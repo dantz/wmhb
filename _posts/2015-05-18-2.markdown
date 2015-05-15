@@ -12,7 +12,7 @@ sponsors: bremen digitalmedia
 Um 18:30 Uhr machen wir den Laden auf und um 19:00 Uhr beginnt der erste Vortrag.
 
 Marcel Böttcher – Wie man das weltbeste Websitekonzept entwickelt
-Rico Sassen - Was ist Clean Code?
+Rico Saßen - Was ist Clean Code?
 Georg Sopart – Schieb es nicht auf den Stuhl
 
 Danach gemeinsames verarbeiten des Gehörten bei dem einen oder anderen Getränk.
