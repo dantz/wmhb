@@ -3,6 +3,9 @@ markdown: kramdown
 pygments: true
 timezone: "Europe/Berlin"
 
+# also show the next webmontag post :)
+future: true
+
 url: http://webmontag-bremen.de
 thumb: /img/thumb.png
 
