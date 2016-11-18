@@ -9,7 +9,7 @@
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ site.url}}{% if page.url != "/index.html" %}{{ page.url }}{% endif %}">
         <meta property="og:description" content="{{ page.description }}" />
-        <meta property="og:image" content="{% if post.thumb" %}{{ site.url }}{{ post.thumb }}{% else %}{{ site.url }}{{ site.thumb }}{% endif %}">
+        <meta property="og:image" content="{% if post.thumb %}{{ site.url }}{{ post.thumb }}{% else %}{{ site.url }}{{ site.thumb }}{% endif %}">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -35,7 +35,7 @@
       <div class="l-credits">
         <a href="http://vortrieb.net">Handgefertigt von Vortrieb in Bremen</a> – <a href="/impressum" class="menu">Impressum</a>
       </div>
-      
+
       <script type="text/javascript">
 
         var _gaq = _gaq || [];
